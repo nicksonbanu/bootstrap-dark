@@ -5,7 +5,8 @@
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 */
 :root {
-	--border-color-focus: #80bdff;
+	/*--border-color-focus: #80bdff;*/
+	--border-color-focus: transparent;
 	--valid: #34ce57;
 	--invalid: #e4606d;
 	--background-color-fields: #212529;
@@ -2077,7 +2078,7 @@ pre code {
 	color: var(--gray-dar);
 	background-color: var(--background-color-fields);
 	background-clip: padding-box;
-	border: 1px solid var(--light-darke);
+	border: 1px solid var(--gray-dark);
 	border-radius: 0.25rem;
 	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -2099,8 +2100,8 @@ pre code {
 }
 
 .form-control:focus {
-	color: var(--gray-dar);
-	background-color: var(--white);
+	color: var(--gray-light);
+	background-color: var(--gray-dark);
 	border-color: var(--border-color-focus);
 	outline: 0;
 	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
@@ -2132,7 +2133,7 @@ pre code {
 }
 
 .form-control:disabled, .form-control[readonly] {
-	background-color: var(--light-dar);
+	background-color: var(--dark);
 	opacity: 1;
 }
 
