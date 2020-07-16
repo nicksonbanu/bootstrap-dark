@@ -3,7 +3,7 @@
 * Copyright 2011-2020 The Bootstrap Authors
 * Copyright 2011-2020 Twitter, Inc.
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
-* Bootstrap-dark alpha-0.0.5 (https://github.com/ghostebony/bootstrap-dark)
+* Bootstrap-dark alpha-0.0.6 (https://github.com/ghostebony/bootstrap-dark)
 */
 :root {
 	/*--border-color-focus: #80bdff;*/
@@ -3741,8 +3741,8 @@ input[type="button"].btn-block {
 	color: var(--gray-light);
 	text-align: center;
 	white-space: nowrap;
-	background-color: var(--gray-darker);
-	border: 1px solid var(--gray-darker);
+	background-color: var(--gray-dark);
+	border: 1px solid var(--gray-dark);
 	border-radius: 0.25rem;
 }
 
@@ -3833,7 +3833,7 @@ input[type="button"].btn-block {
 }
 
 .custom-control-input:checked ~ .custom-control-label::before {
-	color: var(--white);
+	color: var(--light);
 	border-color: var(--blue);
 	background-color: var(--blue);
 }
@@ -3857,7 +3857,7 @@ input[type="button"].btn-block {
 }
 
 .custom-control-input[disabled] ~ .custom-control-label::before, .custom-control-input:disabled ~ .custom-control-label::before {
-	background-color: var(--light-dar);
+	background-color: var(--gray-dark);
 }
 
 .custom-control-label {
@@ -3875,8 +3875,8 @@ input[type="button"].btn-block {
 	height: 1rem;
 	pointer-events: none;
 	content: "";
-	background-color: var(--white);
-	border: var(--gray-light) solid 1px;
+	background-color: var(--gray-darker);
+	border: var(--gray) solid 1px;
 }
 
 .custom-control-label::after {
@@ -3957,7 +3957,7 @@ input[type="button"].btn-block {
 }
 
 .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
-	background-color: var(--white);
+	background-color: var(--light);
 	-webkit-transform: translateX(0.75rem);
 	transform: translateX(0.75rem);
 }
@@ -4094,7 +4094,7 @@ input[type="button"].btn-block {
 	line-height: 1.5;
 	color: var(--gray-light);
 	content: "Browse";
-	background-color: var(--gray-darker);
+	background-color: var(--gray-dark);
 	border-left: inherit;
 	border-radius: 0 0.25rem 0.25rem 0;
 }
@@ -4158,7 +4158,7 @@ input[type="button"].btn-block {
 	height: 0.5rem;
 	color: transparent;
 	cursor: pointer;
-	background-color: var(--light-darker);
+	background-color: var(--gray-dark);
 	border-color: transparent;
 	border-radius: 1rem;
 }
