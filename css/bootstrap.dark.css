@@ -3,11 +3,10 @@
 * Copyright 2011-2020 The Bootstrap Authors
 * Copyright 2011-2020 Twitter, Inc.
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
-* Bootstrap-dark alpha-0.0.6 (https://github.com/ghostebony/bootstrap-dark)
+* Bootstrap-dark beta-0.1.0 (https://github.com/ghostebony/bootstrap-dark)
 */
 :root {
-	/*--border-color-focus: #80bdff;*/
-	--border-color-focus: transparent;
+	--border-color-focus: #153150;
 	--valid: #34ce57;
 	--invalid: #e4606d;
 	--background-color-fields: #212529;
@@ -5553,15 +5552,15 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .list-group-item-action {
 	width: 100%;
-	color: var(--gray-dar);
+	color: var(--light-darker);
 	text-align: inherit;
 }
 
 .list-group-item-action:hover, .list-group-item-action:focus {
 	z-index: 1;
-	color: var(--gray-dar);
+	color: var(--light-dark);
 	text-decoration: none;
-	background-color: var(--light);
+	background-color: var(--gray-dark);
 }
 
 .list-group-item-action:active {
@@ -6419,7 +6418,7 @@ a.close.disabled {
 	width: 1rem;
 	margin-left: -0.5rem;
 	content: "";
-	border-bottom: 1px solid var(--gray-dark);
+	border-bottom: 1px solid var(--gray-darker);
 }
 
 .bs-popover-left, .bs-popover-auto[x-placement^="left"] {
