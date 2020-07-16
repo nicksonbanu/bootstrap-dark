@@ -3,7 +3,7 @@
 * Copyright 2011-2020 The Bootstrap Authors
 * Copyright 2011-2020 Twitter, Inc.
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
-* Bootstrap alpha-0.0.3 (https://github.com/ghostebony/bootstrap-dark)
+* Bootstrap-dark alpha-0.0.3 (https://github.com/ghostebony/bootstrap-dark)
 */
 :root {
 	/*--border-color-focus: #80bdff;*/
@@ -2077,7 +2077,7 @@ pre code {
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.5;
-	color: var(--gray-dar);
+	color: var(--gray-light);
 	background-color: var(--background-color-fields);
 	background-clip: padding-box;
 	border: 1px solid var(--gray-dark);
@@ -2110,32 +2110,32 @@ pre code {
 }
 
 .form-control::-webkit-input-placeholder {
-	color: var(--gray);
+	color: var(--gray-dar);
 	opacity: 1;
 }
 
 .form-control::-moz-placeholder {
-	color: var(--gray);
+	color: var(--gray-dar);
 	opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-	color: var(--gray);
+	color: var(--gray-dar);
 	opacity: 1;
 }
 
 .form-control::-ms-input-placeholder {
-	color: var(--gray);
+	color: var(--gray-dar);
 	opacity: 1;
 }
 
 .form-control::placeholder {
-	color: var(--gray);
+	color: var(--gray-dar);
 	opacity: 1;
 }
 
 .form-control:disabled, .form-control[readonly] {
-	background-color: var(--dark);
+	background-color: var(--gray-dark);
 	opacity: 1;
 }
 
@@ -3738,11 +3738,11 @@ input[type="button"].btn-block {
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.5;
-	color: var(--gray-dar);
+	color: var(--gray-light);
 	text-align: center;
 	white-space: nowrap;
-	background-color: var(--light-dar);
-	border: 1px solid var(--light-darke);
+	background-color: var(--gray-darker);
+	border: 1px solid var(--gray-darker);
 	border-radius: 0.25rem;
 }
 
@@ -5068,14 +5068,14 @@ input[type="button"].btn-block {
 	padding: 0.5rem 0.75rem;
 	margin-left: -1px;
 	line-height: 1.25;
-	color: var(--blue);
+	color: var(--gray-light);
 	background-color: var(--gray-dark);
 	border: 1px solid var(--gray-darker);
 }
 
 .page-link:hover {
 	z-index: 2;
-	color: var(--gray-light);
+	color: var(--light-dark);
 	text-decoration: none;
 	background-color: var(--gray-darker);
 	border-color: var(--gray-darker);
@@ -5109,8 +5109,8 @@ input[type="button"].btn-block {
 	color: var(--gray);
 	pointer-events: none;
 	cursor: auto;
-	background-color: var(--gray-light);
-	border-color: var(--gray);
+	background-color: var(--gray-dar);
+	border-color: var(--gray-dark);
 }
 
 .pagination-lg .page-link {
