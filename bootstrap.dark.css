@@ -3,7 +3,7 @@
 * Copyright 2011-2020 The Bootstrap Authors
 * Copyright 2011-2020 Twitter, Inc.
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
-* Bootstrap-dark alpha-0.0.3 (https://github.com/ghostebony/bootstrap-dark)
+* Bootstrap-dark alpha-0.0.5 (https://github.com/ghostebony/bootstrap-dark)
 */
 :root {
 	/*--border-color-focus: #80bdff;*/
@@ -1729,7 +1729,7 @@ pre code {
 .table {
 	width: 100%;
 	margin-bottom: 1rem;
-	color: var(--gray-darker);
+	color: var(--light-darker);
 }
 
 .table th,
@@ -1779,8 +1779,8 @@ pre code {
 }
 
 .table-hover tbody tr:hover {
-	color: var(--gray-darker);
-	background-color: rgba(0, 0, 0, 0.075);
+	color: var(--white);
+	background-color: rgba(255, 255, 255, 0.075);
 }
 
 .table-primary,
@@ -1962,11 +1962,11 @@ pre code {
 .table-active,
 .table-active > th,
 .table-active > td {
-	background-color: rgba(0, 0, 0, 0.075);
+	background-color: rgba(255, 255, 255, 0.075);
 }
 
 .table-hover .table-active:hover {
-	background-color: rgba(0, 0, 0, 0.075);
+	background-color: rgba(255, 255, 255, 0.075);
 }
 
 .table-hover .table-active:hover > td,
@@ -3974,7 +3974,7 @@ input[type="button"].btn-block {
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.5;
-	color: var(--gray-dar);
+	color: var(--gray-light);
 	vertical-align: middle;
 	background: var(--background-color-fields) url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.75rem center/8px 10px;
 	border: 1px solid var(--gray-dark);
@@ -4076,9 +4076,9 @@ input[type="button"].btn-block {
 	padding: 0.375rem 0.75rem;
 	font-weight: 400;
 	line-height: 1.5;
-	color: var(--gray-dar);
-	background-color: var(--white);
-	border: 1px solid var(--light-darke);
+	color: var(--gray-light);
+	background-color: var(--gray-darker);
+	border: 1px solid var(--gray-dark);
 	border-radius: 0.25rem;
 }
 
@@ -4092,9 +4092,9 @@ input[type="button"].btn-block {
 	height: calc(1.5em + 0.75rem);
 	padding: 0.375rem 0.75rem;
 	line-height: 1.5;
-	color: var(--gray-dar);
+	color: var(--gray-light);
 	content: "Browse";
-	background-color: var(--light-dar);
+	background-color: var(--gray-darker);
 	border-left: inherit;
 	border-radius: 0 0.25rem 0.25rem 0;
 }
@@ -6823,6 +6823,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
+	color: var(--gray-darker);
 	background-color: var(--light) !important;
 }
 
